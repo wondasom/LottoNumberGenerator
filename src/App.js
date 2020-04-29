@@ -26,7 +26,13 @@ export default function App() {
     <div className="App">
       <h1>Lucky Numbers for YOU</h1>
       <Button onRandomizeButtonClick={randomizeNumbers}>
-        🤞🏼finger's crossed🤞🏼
+        <span role="img" aria-label="fingers crossed">
+          🤞🏼
+        </span>
+        fingers crossed
+        <span role="img" aria-label="fingers crossed">
+          🤞🏼
+        </span>
       </Button>
 
       {numbers.map(number => (
