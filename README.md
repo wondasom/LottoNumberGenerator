@@ -1,2 +1,0 @@
-# LottoNumberGenerator
-Created with CodeSandbox

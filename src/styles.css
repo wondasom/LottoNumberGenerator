@@ -1,0 +1,18 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 24px;
+  margin-top: 50px;
+}
+
+.number {
+  width: 46px;
+  padding: 14px 0 14px 0;
+  font-size: 16px;
+  margin: 0 auto 20px auto;
+  border-radius: 50%;
+  border: 2.5px solid tomato;
+}
