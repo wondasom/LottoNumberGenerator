@@ -1,7 +1,7 @@
 import React from "react";
 import Button from "./Button";
 
-const getRandomNumber = () => Math.floor(Math.random() * 46);
+const getRandomNumber = () => Math.ceil(Math.random() * 45);
 
 const Lotto = () => {
   const [numbers, setNumbers] = React.useState([

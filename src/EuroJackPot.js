@@ -2,8 +2,8 @@ import React from "react";
 import Button from "./Button";
 
 //for 5 random numbers between 1~50
-const getRandomNumber = () => Math.floor(Math.random() * 51);
-const getRandomBonusNumbers = () => Math.floor(Math.random() * 11);
+const getRandomNumber = () => Math.ceil(Math.random() * 50);
+const getRandomBonusNumbers = () => Math.floor(Math.random() * 10);
 
 const EuroJackPot = () => {
   const [numbers, setNumbers] = React.useState([
