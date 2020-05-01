@@ -1,18 +1,5 @@
 import React from "react";
 
-const buttonStyles = {
-  height: 50,
-  width: 250,
-  fontSize: 20,
-  background: "tomato",
-  border: "none",
-  borderRadius: 5,
-  color: "white",
-  cursor: "pointer",
-  marginBottom: 20,
-  marginTop: 20
-};
-
 // class Button extends React.PureComponent {
 //   componentDidMount() {
 //     console.debug("Button was mounted");
@@ -41,7 +28,7 @@ const Button = React.memo(props => {
   });
 
   return (
-    <button style={buttonStyles} onClick={props.onRandomizeButtonClick}>
+    <button className="btn" onClick={props.onRandomizeButtonClick}>
       {props.children}
     </button>
   );

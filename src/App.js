@@ -2,7 +2,6 @@ import React from "react";
 import "./styles.css";
 
 import Button from "./Button";
-// import Numbers from "./Numbers";
 
 const getRandomNumber = () => Math.floor(Math.random() * 46);
 
@@ -24,7 +23,14 @@ export default function App() {
 
   return (
     <div className="App">
-      <h1>Lucky Numbers for YOU</h1>
+      <h1>
+        Lucky Numbers
+        <span role="img" aria-label="congrats">
+          {" "}
+          🎉
+        </span>{" "}
+        for YOU
+      </h1>
       <Button onRandomizeButtonClick={randomizeNumbers}>
         <span role="img" aria-label="fingers crossed">
           🤞🏼
