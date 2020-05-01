@@ -19,13 +19,13 @@ import React from "react";
 // }
 
 const Button = React.memo(props => {
-  React.useEffect(() => {
-    console.log("Button was mounted");
-  }, []);
+  // React.useEffect(() => {
+  //   console.log("Button was mounted");
+  // }, []);
 
-  React.useEffect(() => {
-    console.log("Button was rerendered");
-  });
+  // React.useEffect(() => {
+  //   console.log("Button was rerendered");
+  // });
 
   return (
     <button className="btn" onClick={props.onRandomizeButtonClick}>
