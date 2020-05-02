@@ -18,9 +18,10 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <button className="toggleBtn" onClick={this.toggle}>
-          LOTTO / EUROJACKPOT
-        </button>
+        {/* <button className="toggleBtn" onClick={this.toggle}>
+          
+        </button> */}
+        <input type="checkbox" onChange={this.toggle} />
         {this.state.lotto && <Lotto />}
         {this.state.eurojackpot && <EuroJackPot />}
       </div>
