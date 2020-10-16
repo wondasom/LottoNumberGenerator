@@ -1,4 +1,4 @@
-# LottoNumberGenerator
+# Lucky Number Generator
 
 Created with CodeSandbox
 
